@@ -1,0 +1,17 @@
+Autolimitar gasto en Azure 
+Portal nuevo --> Subscripciones - Todas las opciones - Uso y cuotas
+
+
+CREAR PRIMERO LAS CLASES Y CON 'cODE FIRST' orm CREAR LAS TABLAS DE bd
+
+
+
+Sysprep --> Revisa funcionamiento (configuracion para creacion maquinas virtuales)
+
+
+Comprobar precios --> https://azure.microsoft.com/es-es/pricing/
+
+
+1.- Crear Grupo de recursos = Ubicacion geográfica
+2.- Crear red virtual
+3.- Cerar maquina virtual - Nombre Nodo1 - Usuario=Jacinto - Password=Jacinto1

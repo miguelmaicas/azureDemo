@@ -1,0 +1,43 @@
+Permitir/Denegar conexines rdp a Maquina virtual
+Grupo de recursos 
+Maquina virtual
+Configuracion
+Interfaces de red
+Interfaz
+Cnofiguracion
+Grupo de seguridad de red
+Nodo
+Opciones
+Reglas de seguridad de entrada
+
+
+IP CTA 
+83.41.215.33/32
+
+DNS
+webnode1.westeurope.cloudapp.azure.com
+webnode2.westeurope.cloudapp.azure.com
+webfarmip11.westeurope.cloudapp.azure.com
+
+
+
+LOAD BALANCER
+1 - Load balancer backend pools (servidores a los que balancea)
+2 - Probes (sondeo para saber que el servicio esta bien o no)
+3 - Load Balancer Rule (Reglas de balanceo)
+
+
+
+AZURE Database
+zgz11sql.database.windows.net || jacinto - Pa$$w0rd
+zgz11sql2.database.windows.net || jacinto - Pa$$w0rd (geo-replicated)
+
+sql azure migration wizard --> para migrar BDs a Azure
+SQL data tools (crear proyecto de BD para migrar tablas y datos nuevos, se hacen incrementales) 
+Recovery options
+High avalability --> geotreplication en server sql options
+Security in data connections --> All resources > SQL Server > DB > Settings > Transparent data encryption > Data encription ON
+
+
+
+

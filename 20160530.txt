@@ -1,0 +1,28 @@
+Resource group > App Service Plan > Web site
+
+
+STORAGE (TABLES, BLOBS, COLAS)
+zgz11storage.core.windows.net
+
+Azure Storage local --> Azore storage emulator
+
+
+AZURE STORAGE
+Create new storage account
+
+Niveles de permisos:
+- Full public read access
+- Public read 
+
+
+SAS - Generar shared access signatures (URL temporal con un token para accesos temporales)
+Stored access policies - como SAS pero pudiendo modificar las políticas (no tiene inicio y fin)
+* Hay que habilitar el CORS en los endpoints del storage
+
+https://azure.microsoft.com/es-es/documentation/articles/storage-dotnet-shared-access-signature-part-1/
+https://azure.microsoft.com/es-es/documentation/articles/storage-dotnet-shared-access-signature-part-2/
+
+
+Paquetes necesarios para atacar azure
+WindowsAzure.configurationmanager
+WindowsAzure.storage
